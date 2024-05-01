@@ -1,0 +1,139 @@
+.body {
+  background-color: #9ac0ae;
+}
+
+.container {
+  max-width: 85%;
+  margin: auto;
+}
+.flexSB {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  width: 50%;
+}
+.button {
+  padding: 10px 15px;
+  background-color: #fff;
+  color: #3e6553;
+  font-weight: 600;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgba(0 0 0 9%);
+  margin-left: 5%;
+}
+
+.button1 {
+  padding: 10px 15px;
+  background-color: #3e6553;
+  color: white;
+  font-weight: 600;
+  border: none;
+  margin: 30px 10px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 24px 36px -11px rgba(0 0 0 9%);
+}
+
+.button:hover {
+  box-shadow: none;
+}
+.back {
+  text-align: center;
+}
+.back h1 {
+  font-size: 80px;
+  font-weight: 400;
+}
+.back h2 {
+  font-weight: 500;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding-top: 22%;
+}
+.marginn {
+  margin-top: 40%;
+}
+.back {
+  background-image: url("https://i.postimg.cc/Ss0VQC8r/brooke-cagle-g1-Kr4-Ozfoac-unsplash.jpg");
+  backdrop-filter: blur(5px);
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 110vh;
+
+  color: white;
+}
+.aboutHome {
+  height: auto;
+}
+.left img {
+  height: 85vh;
+  width: 130%;
+}
+
+.right {
+  height: 100vh;
+}
+
+.r1 {
+  display: flex;
+  justify-content: start;
+}
+.r1:hover {
+  background-color: #3e6553;
+  color: #fff;
+  border-radius: 20px;
+}
+.col-2 {
+  font-size: 80px;
+  margin-right: 70px;
+  padding-left: 20px;
+}
+.abb {
+  top: 700px;
+}
+.banner {
+  background-image: url("https://i.postimg.cc/s2S7m2HH/glenn-carstens-peters-npx-XWg-Q33-ZQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  color: white;
+}
+.b1 {
+  font-size: 80px;
+}
+.t1 h1 {
+  font-weight: 1000;
+}
+.card:hover {
+  background-color: #3e6553;
+  color: #fff;
+}
+.right1 input {
+  width: 500px;
+  border: none;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+}
+.search input {
+  width: 400px;
+  height: 40px;
+  padding: 5px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.212);
+  border-color: rgba(255, 255, 255, 0.212);
+}
+.row5{
+margin-left: 400px;
+}
